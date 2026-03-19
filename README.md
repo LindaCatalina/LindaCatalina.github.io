@@ -6,7 +6,6 @@ I am building my professional portfolio around data-driven solutions to support 
 
 [CV](#) | [LinkedIn](#) | [GitHub](https://github.com/LindaCatalina)
 
----
 
 ## 🎯 Professional Focus
 
@@ -23,25 +22,25 @@ My goal is to contribute to projects that anticipate risks, optimize systems and
 
 ### ⚡ Energy Demand Forecasting
 **Repository:** [ancla-a-xm-energy-demand-forecast](https://github.com/LindaCatalina/ancla-a-xm-energy-demand-forecast)  
-Forecasting de demanda energética usando series de tiempo y machine learning, con enfoque en planeación y operación del sistema eléctrico.
+Energy demand forecasting using time series analysis and machine learning, with a focus on power system planning and operations.
 
 ---
 
 ### 💧 Water Treatment ML
 **Repository:** [ancla-b-epm-water-treatment-ml](https://github.com/LindaCatalina/ancla-b-epm-water-treatment-ml)  
-Aplicación de machine learning al análisis de calidad del agua y apoyo a decisiones en sistemas de tratamiento.
+Application of machine learning to water quality analysis and decision support in treatment systems.
 
 ---
 
 ### 🌧️ Hydroclimate Risk Analysis
 **Repository:** [ancla-c-hydroclimate-risk-isagen-ideam-wsp](https://github.com/LindaCatalina/ancla-c-hydroclimate-risk-isagen-ideam-wsp)  
-Evaluación de riesgo hidroclimático integrando sequías, inundaciones y análisis geoespacial.
+Hydroclimatic risk assessment integrating droughts, floods, and geospatial analysis.
 
 ---
 
 ### ⚙️ Climate & Energy Data Platform
 **Repository:** [ancla-d-data-platform-climate-energy-pipeline](https://github.com/LindaCatalina/ancla-d-data-platform-climate-energy-pipeline)  
-Pipeline de datos para integración, transformación y análisis reproducible en sistemas de clima y energía.
+Data pipeline for integration, transformation, and reproducible analysis in climate and energy systems.
 
 ---
 
@@ -49,32 +48,6 @@ Pipeline de datos para integración, transformación y análisis reproducible en
 
 - [sat-1-esri-gis-mooc-labs](https://github.com/LindaCatalina/sat-1-esri-gis-mooc-labs)  
 - [sat-2-arset-notebooks-lab](https://github.com/LindaCatalina/sat-2-arset-notebooks-lab)  
-
----
-
-
-## Featured Projects
-
-### 1. Energy Demand Forecasting
-**Repository:** `ancla-a-xm-energy-demand-forecast`  
-Forecasting de demanda energética usando series de tiempo, machine learning y visualización orientada a planeación y operación.
-
-### 2. Water Treatment ML
-**Repository:** `ancla-b-epm-water-treatment-ml`  
-Aplicación de machine learning al análisis de calidad del agua y soporte a decisiones en tratamiento.
-
-### 3. Hydroclimate Risk Analysis
-**Repository:** `ancla-c-hydroclimate-risk-isagen-ideam-wsp`  
-Evaluación de riesgo hidroclimático con análisis de sequías, inundaciones y enfoque geoespacial.
-
-### 4. Climate & Energy Data Pipeline
-**Repository:** `ancla-d-data-platform-climate-energy-pipeline`  
-Pipeline reproducible para integración, transformación y análisis de datos de clima y energía.
-
-## Supporting Projects
-
-- `sat-1-esri-gis-mooc-labs`
-- `sat-2-arset-notebooks-lab`
 
 ---
 
@@ -89,29 +62,6 @@ Pipeline reproducible para integración, transformación y análisis de datos de
 - NASA ARSET  
 - Esri Geospatial Training  
 - AWS Skill Builder  
-
----
-
-
-## Certifications in Progress
-
-- Harvard CS50P
-- Harvard CS50 SQL
-- Kaggle Certificates
-- Google ML Crash Course
-- IBM Data Engineering
-- NASA ARSET
-- Esri MOOC
-- AWS Skill Builder
-
-## Tools
-
-Python, SQL, Pandas, scikit-learn, Power BI, GIS, Remote Sensing, Jupyter, GitHub.
-
-## Contact
-
-Medellín, Colombia  
-Email: licorrea@unal.edu.co
 
 ---
 
@@ -139,8 +89,8 @@ I am especially interested in roles where I can contribute to:
 ## 📫 Contact
 
 📍 Medellín, Colombia  
-📧 licorrea@unal.edu.co  
-💼 LinkedIn: *(add your link here)*  
+📧 licorrea@unal.edu.co or linda8.catalina@gmail.com
+💼 LinkedIn:   
 💻 GitHub: https://github.com/LindaCatalina  
 
 ---
