@@ -4,7 +4,9 @@ Environmental Engineering Student focused on environmental data analysis, climat
 
 I am building my professional portfolio around data-driven solutions to support decision-making in energy, water and climate-related systems.
 
-[CV](#) | [LinkedIn](#) | [GitHub](https://github.com/LindaCatalina)
+[CV](#)
+[LinkedIn](#)
+[GitHub](https://github.com/LindaCatalina)
 
 
 ## 🎯 Professional Focus
