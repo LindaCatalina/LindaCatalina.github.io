@@ -26,6 +26,22 @@ Mi objetivo es aportar valor en proyectos que anticipen riesgos, optimicen siste
 
 ## 🚀 Proyectos destacados
 
+### 🌧️ Microfísica de precipitación — SIATA + NOAA
+
+**Python · procesamiento de datos multi-GB · análisis climático · reproducibilidad**
+
+Análisis de 167,3 millones de gotas observadas por el disdrómetro SIATA 417 en Santa Elena, Antioquia. El proyecto integra 5,28 GB de observaciones con OMEGA y CHI del NCEP/NCAR Reanalysis 1, aplica controles físicos y de calidad, y genera 14 visualizaciones y resultados auditables.
+
+[Ver repositorio, metodología y resultados →](https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics)
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/LindaCatalina/siata-disdrometer-rainfall-microphysics/main/figuras/03_histograma_bivariado_global.png"
+    alt="Distribución conjunta del diámetro y la velocidad de caída de las gotas"
+    width="760"
+  >
+</p>
+
 ### ⚡ Pronóstico de demanda energética
 **Repositorio:** [ancla-a-xm-energy-demand-forecast](https://github.com/LindaCatalina/ancla-a-xm-energy-demand-forecast)  
 Pronóstico de demanda eléctrica con series de tiempo y machine learning, orientado a planeación y operación del sistema energético.
