@@ -42,6 +42,24 @@ Análisis de 167,3 millones de gotas observadas por el disdrómetro SIATA 417 en
   >
 </p>
 
+---
+
+### 🌬️ Impacto del cambio climático en el potencial eólico
+
+**Python · ERA5-Land · CMIP6 · incertidumbre climática · reproducibilidad**
+
+Desarrollamos un flujo reproducible para transformar datos climáticos históricos y proyecciones de 12 modelos CMIP6 en indicadores comprensibles de generación eólica para el proyecto Jemeiwaa Ka'I, en La Guajira.
+
+El análisis integra corrección de sesgo, escenarios SSP, factor de planta, estacionalidad y percentiles P10–P50–P90. Encontramos que el potencial medio permanece relativamente estable; el aspecto más importante para la decisión es la dispersión entre modelos, no una pérdida sistemática del recurso.
+
+**Habilidades demostradas:** diseño de pipelines científicos, Python, pandas, xarray, visualización, análisis de incertidumbre, pruebas automatizadas, GitHub Actions y documentación reproducible.
+
+> Evaluación académica de riesgo climático. Las cifras absolutas de energía no representan un P90 financiero bancable.
+
+[Ver estudio, figuras y guía de reproducción →](https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk)
+
+[![Cambio proyectado del factor de planta](https://raw.githubusercontent.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk/main/results/figures/02_cambio_cf_percentiles.png)](https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk)
+
 ### ⚡ Pronóstico de demanda energética
 **Repositorio:** [ancla-a-xm-energy-demand-forecast](https://github.com/LindaCatalina/ancla-a-xm-energy-demand-forecast)  
 Pronóstico de demanda eléctrica con series de tiempo y machine learning, orientado a planeación y operación del sistema energético.
