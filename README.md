@@ -145,5 +145,5 @@ permalink: /
 
 <section id="contacto" class="contact-section" aria-labelledby="titulo-contacto">
   <div><p class="eyebrow">04 / Conversemos</p><h2 id="titulo-contacto">Hablemos de nuevas<br>oportunidades.</h2><p>Busco una práctica en análisis de datos o gestión ambiental, con especial interés en energía, recursos hídricos e infraestructura.</p></div>
-  <div class="contact-links"><a class="contact-email" href="mailto:licorrea@unal.edu.co">licorrea@unal.edu.co <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:licorrea@unal.edu.co">licorrea@unal.edu.co <span aria-hidden="true">↗</span></a><a href="https://github.com/LindaCatalina">Explorar mi GitHub <span aria-hidden="true">↗</span></a></div>
+  <div class="contact-links"><a class="contact-email" href="mailto:licorrea@unal.edu.co">licorrea@unal.edu.co <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:linda8.catalina@gmail.com">linda8.catalina@gmail.com <span aria-hidden="true">↗</span></a><a href="https://github.com/LindaCatalina">Explorar mi GitHub <span aria-hidden="true">↗</span></a></div>
 </section>
