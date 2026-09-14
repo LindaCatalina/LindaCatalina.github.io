@@ -48,7 +48,7 @@ permalink: /
         <p>Integramos datos diarios, límites de cuenca y estaciones. Calibramos y validamos un modelo de lluvia y escorrentía, y generamos mapas interactivos y reportes automáticos.</p>
         <p>La mejor combinación alcanzó un <strong>NSE de 0,603 en validación</strong>, una medida del ajuste de los caudales simulados. El análisis también muestra las dificultades del modelo para representar las crecidas.</p>
         <p class="technical-note"><strong>Herramientas:</strong> Python, SciPy, Leaflet y Plotly.</p>
-        <a class="inline-link" href="https://camilobedoyac.github.io/modelo-hidrologico/">Abrir el informe interactivo <span aria-hidden="true">↗</span></a>
+        <a class="inline-link" href="/assets/docs/reporte-hidrologico.html">Abrir el informe interactivo <span aria-hidden="true">↗</span></a>
       </div></details>
       <a class="project-link" href="https://github.com/CamiloBedoyaC/modelo-hidrologico">Ver código, metodología y resultados <span aria-hidden="true">↗</span></a>
     </article>
