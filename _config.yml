@@ -1,3 +1,13 @@
-theme: jekyll-theme-minimal
-title: Linda Catalina | Environmental Data & ML
-description: Portafolio de pronósticos energéticos, analítica de agua, riesgo hidroclimático y GIS.
+title: Linda Catalina Correa Lozano
+description: Estudiante de Ingeniería Ambiental. Proyectos de hidrología, clima, energía y análisis geográfico con Python y SIG.
+url: https://lindacatalina.github.io
+baseurl: ""
+lang: es-CO
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+  - COMO_ACTUALIZAR.md
+  - VISTA_PREVIA.html
+  - vista_previa.jpg
+  - vista_movil.jpg

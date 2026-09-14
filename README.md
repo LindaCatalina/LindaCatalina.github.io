@@ -1,132 +1,149 @@
-# Linda Catalina
-
-Environmental Data · Climate Risk · Hydrology · Machine Learning
-
-Estudiante de Ingeniería Ambiental enfocada en análisis de datos ambientales, modelación hidroclimática, pronósticos y herramientas de soporte a la toma de decisiones en energía, agua y clima.
-
-Estoy construyendo un portafolio profesional orientado a soluciones basadas en datos para sistemas ambientales, energéticos e hidroclimáticos.
-
-[Descargar CV](#)
-[LinkedIn](#)
-[GitHub](https://github.com/LindaCatalina)
-
+---
+layout: default
+title: Linda Catalina Correa Lozano
+permalink: /
 ---
 
-## 🎯 Enfoque profesional
+<section class="hero" aria-labelledby="nombre">
+  <div class="hero-copy">
+    <p class="eyebrow">Ingeniería Ambiental · Portafolio académico</p>
+    <h1 id="nombre">Linda Catalina<br><span>Correa Lozano</span></h1>
+    <p class="hero-lead">Datos para entender el agua, el clima y el territorio.</p>
+    <p class="hero-description">Soy estudiante de la Universidad Nacional de Colombia, sede Medellín. Combino mi formación ambiental con programación y análisis geográfico para convertir información compleja en resultados claros y verificables.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↗</span></a>
+      <a class="button secondary" href="assets/docs/CV_Linda_Catalina_Correa_Lozano.pdf" download>Descargar hoja de vida <span aria-hidden="true">↓</span></a>
+    </div>
+    <p class="availability"><span class="status-dot" aria-hidden="true"></span>Habilitada para práctica académica · Medellín, Colombia</p>
+  </div>
+  <aside class="approach" aria-labelledby="forma-trabajo">
+    <p class="eyebrow">Mi forma de trabajar</p>
+    <h2 id="forma-trabajo">Del dato<br>al resultado.</h2>
+    <ol class="workflow">
+      <li><span class="step-number" aria-hidden="true">01</span><div><strong>Integrar y validar</strong><p>Revisar las fuentes y la calidad de la información.</p></div></li>
+      <li><span class="step-number" aria-hidden="true">02</span><div><strong>Modelar y comparar</strong><p>Explorar patrones, escenarios y sus límites.</p></div></li>
+      <li><span class="step-number" aria-hidden="true">03</span><div><strong>Comunicar y documentar</strong><p>Explicar los resultados y cómo se obtuvieron.</p></div></li>
+    </ol>
+  </aside>
+</section>
 
-- Modelación climática e hidroclimática  
-- Pronóstico de demanda energética  
-- Machine Learning aplicado a sistemas ambientales  
-- Ciencia de datos ambiental  
-- GIS y teledetección  
+<section id="proyectos" class="section-block" aria-labelledby="titulo-proyectos">
+  <div class="section-heading">
+    <div><p class="eyebrow">01 / Trabajo realizado</p><h2 id="titulo-proyectos">Cuatro proyectos, una base común.</h2></div>
+    <p>Aplicar datos y conocimiento ambiental a preguntas concretas.</p>
+  </div>
+  <p class="collaboration">Proyectos académicos desarrollados junto a <a href="https://github.com/CamiloBedoyaC">Juan Camilo Bedoya Carmona</a>, en un equipo de dos personas.</p>
 
-Mi objetivo es aportar valor en proyectos que anticipen riesgos, optimicen sistemas y fortalezcan la toma de decisiones con base en datos.
+  <div class="project-grid">
+    <article class="project-card" aria-labelledby="titulo-hidrologia">
+      <div class="project-topline"><span>Hidrología</span><span>2026-I</span></div>
+      <h3 id="titulo-hidrologia">Simulación hidrológica<br>de una cuenca</h3>
+      <p class="project-summary">Un modelo en Python para estudiar cómo responde una cuenca a la lluvia y comparar los caudales simulados con los observados.</p>
+      <p class="project-evidence"><strong>12.784</strong> registros diarios de CAMELS-US</p>
+      <a class="figure-link dark-figure" href="assets/img/hidrologia.png" aria-label="Ampliar figura: caudal observado y simulado en la cuenca Sopchoppy">
+        <img src="assets/img/hidrologia.png" width="3300" height="1760" alt="Hidrograma con precipitación y comparación entre caudal observado y simulado en Sopchoppy." loading="lazy" decoding="async">
+        <span class="image-caption">Caudales observados y simulados <span aria-hidden="true">↗</span></span>
+      </a>
+      <details class="project-details"><summary>Método y resultados</summary><div class="details-body">
+        <p>Integramos datos diarios, límites de cuenca y estaciones. Calibramos y validamos un modelo de lluvia y escorrentía, y generamos mapas interactivos y reportes automáticos.</p>
+        <p>La mejor combinación alcanzó un <strong>NSE de 0,603 en validación</strong>, una medida del ajuste de los caudales simulados. El análisis también muestra las dificultades del modelo para representar las crecidas.</p>
+        <p class="technical-note"><strong>Herramientas:</strong> Python, SciPy, Leaflet y Plotly.</p>
+        <a class="inline-link" href="https://camilobedoyac.github.io/modelo-hidrologico/">Abrir el informe interactivo <span aria-hidden="true">↗</span></a>
+      </div></details>
+      <a class="project-link" href="https://github.com/CamiloBedoyaC/modelo-hidrologico">Ver código, metodología y resultados <span aria-hidden="true">↗</span></a>
+    </article>
 
----
+    <article class="project-card" aria-labelledby="titulo-precipitacion">
+      <div class="project-topline"><span>Calidad de datos</span><span>2025-II</span></div>
+      <h3 id="titulo-precipitacion">Análisis de precipitación<br>con SIATA y NOAA</h3>
+      <p class="project-summary">Procesamiento de observaciones de lluvia de Santa Elena, Antioquia, para estudiar las gotas y su relación con las condiciones atmosféricas.</p>
+      <p class="project-evidence"><strong>167,3 millones</strong> de partículas válidas analizadas</p>
+      <a class="figure-link dark-figure" href="assets/img/precipitacion.png" aria-label="Ampliar figura: tamaño y velocidad de caída de las gotas">
+        <img src="assets/img/precipitacion.png" width="1800" height="1400" alt="Distribución conjunta del diámetro y la velocidad de caída de las gotas medidas por SIATA." loading="lazy" decoding="async">
+        <span class="image-caption">Tamaño y velocidad de las gotas <span aria-hidden="true">↗</span></span>
+      </a>
+      <details class="project-details"><summary>Método y resultados</summary><div class="details-body">
+        <p>Procesamos <strong>5,28 GB de datos por bloques</strong> para evitar cargar todo el histórico en memoria. Aplicamos controles de calidad e integramos variables atmosféricas de NOAA.</p>
+        <p>Generamos 14 figuras, tablas de resultados y pruebas automatizadas. Las relaciones con las variables atmosféricas fueron débiles y se presentan como asociaciones exploratorias.</p>
+        <p class="technical-note"><strong>Herramientas:</strong> Python, pandas, NumPy y Matplotlib.</p>
+      </div></details>
+      <a class="project-link" href="https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics">Ver código, metodología y resultados <span aria-hidden="true">↗</span></a>
+    </article>
 
-## 🚀 Proyectos destacados
+    <article class="project-card" aria-labelledby="titulo-eolica">
+      <div class="project-topline"><span>Clima y energía</span><span>2025-II</span></div>
+      <h3 id="titulo-eolica">Riesgo climático para<br>la generación eólica</h3>
+      <p class="project-summary">Evaluación de posibles cambios en el potencial de una planta eólica virtual en La Guajira, considerando distintos escenarios climáticos.</p>
+      <p class="project-evidence"><strong>12 modelos</strong> climáticos · 3 escenarios futuros</p>
+      <a class="figure-link wind-figure" href="assets/img/eolica.png" aria-label="Ampliar figura: cambios del factor de planta en los escenarios climáticos">
+        <img src="assets/img/eolica.png" width="2773" height="1374" alt="Cambios proyectados del factor de planta y dispersión entre modelos en tres escenarios climáticos." loading="lazy" decoding="async">
+        <span class="image-caption">Escenarios y rangos de incertidumbre <span aria-hidden="true">↗</span></span>
+      </a>
+      <details class="project-details"><summary>Método y resultados</summary><div class="details-body">
+        <p>Integramos ERA5-Land y proyecciones de CMIP6, corregimos diferencias sistemáticas y estimamos cambios en el factor de planta.</p>
+        <p>El conjunto de modelos no muestra una disminución común a los tres escenarios. La dispersión entre modelos y la sensibilidad al método son importantes para interpretar el riesgo.</p>
+        <p class="technical-note"><strong>Herramientas:</strong> Python, pandas, xarray y Matplotlib. Es un caso académico inspirado en Jemeiwaa Ka'I.</p>
+      </div></details>
+      <a class="project-link" href="https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk">Ver código, metodología y resultados <span aria-hidden="true">↗</span></a>
+    </article>
 
-### 🌧️ Microfísica de precipitación — SIATA + NOAA
+    <article class="project-card" aria-labelledby="titulo-mjo">
+      <div class="project-topline"><span>Climatología</span><span>2025-II</span></div>
+      <h3 id="titulo-mjo">Estabilidad atmosférica<br>durante la MJO</h3>
+      <p class="project-summary">Estudio de cómo cambia la estabilidad de la atmósfera en Palau y Chuuk durante las fases de la oscilación de Madden-Julian.</p>
+      <p class="project-evidence"><strong>33.096</strong> registros diarios · 2 estaciones</p>
+      <a class="figure-link dark-figure" href="assets/img/mjo.png" aria-label="Ampliar figura: anomalías de estabilidad de Palau y Chuuk durante la fase cuatro de la MJO">
+        <img src="assets/img/mjo.png" width="2392" height="877" alt="Mapa esquemático de la fase cuatro de la MJO y anomalías calculadas para Palau y Chuuk." loading="lazy" decoding="async">
+        <span class="image-caption">Fase 4: esquema y resultados por estación <span aria-hidden="true">↗</span></span>
+      </a>
+      <details class="project-details"><summary>Método y resultados</summary><div class="details-body">
+        <p>Integramos radiosondeos de NOAA de 1980 a 2025 y el índice de la MJO. Calculamos promedios históricos y anomalías, y generamos tablas y visualizaciones interactivas.</p>
+        <p>Encontramos anomalías negativas en las fases 1–2 y positivas en las fases 4–6, con diferencias entre estaciones. El resultado describe una asociación, no una prueba de causalidad ni un pronóstico.</p>
+        <p class="technical-note"><strong>Herramientas:</strong> Python, análisis de series, CSV/Parquet y visualización interactiva.</p>
+        <a class="inline-link" href="https://camilobedoyac.github.io/mjo-atmospheric-stability/hist-unificado-site/hist_unificado.html">Explorar la visualización interactiva <span aria-hidden="true">↗</span></a>
+      </div></details>
+      <a class="project-link" href="https://github.com/CamiloBedoyaC/mjo-atmospheric-stability">Ver código, metodología y resultados <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+</section>
 
-**Python · procesamiento de datos multi-GB · análisis climático · reproducibilidad**
+<section id="competencias" class="section-block" aria-labelledby="titulo-competencias">
+  <div class="section-heading"><div><p class="eyebrow">02 / Capacidades</p><h2 id="titulo-competencias">Herramientas con un propósito.</h2></div></div>
+  <div class="skills-grid">
+    <div class="skill-group"><h3>Datos y modelos</h3><p>Integración, control de calidad, análisis estadístico y simulación.</p><p class="tool-list">Python · R · pandas · NumPy · xarray · SciPy</p></div>
+    <div class="skill-group"><h3>Mapas y visualización</h3><p>Análisis espacial y presentación de resultados para facilitar su interpretación.</p><p class="tool-list">QGIS · Google Earth Engine · Cartopy · Leaflet · Matplotlib · Plotly</p></div>
+    <div class="skill-group"><h3>Desarrollo y documentación</h3><p>Organización del código, automatización y reportes que pueden revisarse.</p><p class="tool-list">Git · GitHub · Jupyter · VS Code · LaTeX · Excel</p></div>
+  </div>
+  <p class="working-note"><strong>En equipo:</strong> comparto conocimientos y escucho otros puntos de vista. Ante una dificultad, investigo, pruebo alternativas y busco apoyo cuando es necesario.</p>
+</section>
 
-Análisis de 167,3 millones de gotas observadas por el disdrómetro SIATA 417 en Santa Elena, Antioquia. El proyecto integra 5,28 GB de observaciones con OMEGA y CHI del NCEP/NCAR Reanalysis 1, aplica controles físicos y de calidad, y genera 14 visualizaciones y resultados auditables.
+<section id="formacion" class="section-block formation" aria-labelledby="titulo-formacion">
+  <div class="formation-copy">
+    <p class="eyebrow">03 / Aprendizaje</p>
+    <h2 id="titulo-formacion">Formación que acompaña<br>la práctica.</h2>
+    <p>Complemento la ingeniería ambiental con análisis de datos, climatología y herramientas geográficas.</p>
+    <div class="credential-row"><span>Promedio: <strong>4,3/5,0</strong></span><span>Inglés: <strong>C1 · EF SET</strong></span></div>
+  </div>
+  <div class="formation-details">
+    <h3>Asignaturas de posgrado</h3>
+    <p>Analítica descriptiva y visualización de datos · Analítica predictiva · Producto de datos · Climatología.</p>
+    <h3>Curso realizado</h3>
+    <p>Geoanalítica: transforma datos en decisiones — Esri, 2026.</p>
+    <details class="learning-details"><summary>Formación y certificaciones en progreso</summary><div class="details-body">
+      <ul>
+        <li><strong>Python:</strong> CS50P — Harvard.</li>
+        <li><strong>SQL y bases de datos:</strong> CS50 SQL — Harvard.</li>
+        <li><strong>Ciencia de datos y aprendizaje automático:</strong> Kaggle y Google ML Crash Course.</li>
+        <li><strong>Ingeniería de datos:</strong> DataTalks.Club e IBM Data Engineering.</li>
+        <li><strong>Análisis geoespacial:</strong> GeoPython y cursos MOOC de Esri.</li>
+        <li><strong>Teledetección:</strong> NASA ARSET.</li>
+        <li><strong>Nube y despliegue:</strong> AWS.</li>
+      </ul>
+    </div></details>
+  </div>
+</section>
 
-[Ver repositorio, metodología y resultados →](https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics)
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/LindaCatalina/siata-disdrometer-rainfall-microphysics/main/figuras/03_histograma_bivariado_global.png"
-    alt="Distribución conjunta del diámetro y la velocidad de caída de las gotas"
-    width="760"
-  >
-</p>
-
----
-
-### 🌬️ Impacto del cambio climático en el potencial eólico
-
-**Python · ERA5-Land · CMIP6 · incertidumbre climática · reproducibilidad**
-
-Desarrollamos un flujo reproducible para transformar datos climáticos históricos y proyecciones de 12 modelos CMIP6 en indicadores comprensibles de generación eólica para el proyecto Jemeiwaa Ka'I, en La Guajira.
-
-El análisis integra corrección de sesgo, escenarios SSP, factor de planta, estacionalidad y percentiles P10–P50–P90. Encontramos que el potencial medio permanece relativamente estable; el aspecto más importante para la decisión es la dispersión entre modelos, no una pérdida sistemática del recurso.
-
-**Habilidades demostradas:** diseño de pipelines científicos, Python, pandas, xarray, visualización, análisis de incertidumbre, pruebas automatizadas, GitHub Actions y documentación reproducible.
-
-> Evaluación académica de riesgo climático. Las cifras absolutas de energía no representan un P90 financiero bancable.
-
-[Ver estudio, figuras y guía de reproducción →](https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk)
-
-[![Cambio proyectado del factor de planta](https://raw.githubusercontent.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk/main/results/figures/02_cambio_cf_percentiles.png)](https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk)
-
-### ⚡ Pronóstico de demanda energética
-**Repositorio:** [ancla-a-xm-energy-demand-forecast](https://github.com/LindaCatalina/ancla-a-xm-energy-demand-forecast)  
-Pronóstico de demanda eléctrica con series de tiempo y machine learning, orientado a planeación y operación del sistema energético.
-
-### 💧 Machine Learning para tratamiento de agua
-**Repositorio:** [ancla-b-epm-water-treatment-ml](https://github.com/LindaCatalina/ancla-b-epm-water-treatment-ml)  
-Aplicación de machine learning al análisis de calidad del agua y apoyo a decisiones en sistemas de tratamiento.
-
-### 🌧️ Riesgo hidroclimático
-**Repositorio:** [ancla-c-hydroclimate-risk-isagen-ideam-wsp](https://github.com/LindaCatalina/ancla-c-hydroclimate-risk-isagen-ideam-wsp)  
-Evaluación de sequías, inundaciones y variables hidroclimáticas con análisis espacial y enfoque de riesgo.
-
-### ⚙️ Plataforma de datos clima-energía
-**Repositorio:** [ancla-d-data-platform-climate-energy-pipeline](https://github.com/LindaCatalina/ancla-d-data-platform-climate-energy-pipeline)  
-Pipeline reproducible para integración, transformación y análisis de datos de clima y energía.
-
----
-
-## 🛰️ Proyectos de apoyo
-
-- [sat-1-esri-gis-mooc-labs](https://github.com/LindaCatalina/sat-1-esri-gis-mooc-labs)  
-- [sat-2-arset-notebooks-lab](https://github.com/LindaCatalina/sat-2-arset-notebooks-lab)
-
----
-
-## 📚 Formación y certificaciones
-
-- Harvard CS50P (Python)  
-- Harvard CS50 SQL  
-- Kaggle: Python, Pandas, Time Series, Intro to ML  
-- Google Machine Learning Crash Course  
-- IBM Data Engineering  
-- DataTalks.Club Zoomcamp  
-- NASA ARSET  
-- Esri Geospatial Training  
-- AWS Skill Builder  
-
----
-
-## 🛠️ Herramientas
-
-Python · SQL · Pandas · NumPy · scikit-learn · Power BI  
-GIS · Remote Sensing · Jupyter · Git · APIs
-
----
-
-## 💡 Sobre mí
-
-Soy una persona altamente motivada por el aprendizaje, con un fuerte interés en aplicar datos, tecnología y conocimiento ambiental para resolver problemas reales.
-
-Actualmente estoy fortaleciendo mis habilidades técnicas a través de formación estructurada y proyectos prácticos, con el objetivo de desarrollarme profesionalmente en ciencia de datos ambiental y modelación predictiva.
-
-Me interesa especialmente aportar en roles relacionados con:
-
-- análisis de riesgo climático y ambiental,
-- sistemas energéticos y pronósticos,
-- toma de decisiones basada en datos.
-
----
-
-## 📫 Contacto
-
-📍 Medellín, Colombia  
-📧 licorrea@unal.edu.co  
-💼 LinkedIn:  
-💻 GitHub: [LindaCatalina](https://github.com/LindaCatalina)
-
----
-
-⭐ Este portafolio está en constante evolución a medida que crezco técnica y profesionalmente.
+<section id="contacto" class="contact-section" aria-labelledby="titulo-contacto">
+  <div><p class="eyebrow">04 / Conversemos</p><h2 id="titulo-contacto">Hablemos de nuevas<br>oportunidades.</h2><p>Busco una práctica en análisis de datos o gestión ambiental, con especial interés en energía, recursos hídricos e infraestructura.</p></div>
+  <div class="contact-links"><a class="contact-email" href="mailto:licorrea@unal.edu.co">licorrea@unal.edu.co <span aria-hidden="true">↗</span></a><a href="https://github.com/LindaCatalina">Explorar mi GitHub <span aria-hidden="true">↗</span></a></div>
+</section>

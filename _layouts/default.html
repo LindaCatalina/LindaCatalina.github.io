@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title | escape }} | Portafolio ambiental</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="theme-color" content="#183C40">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="site-shell header-inner">
+      <a class="brand" href="#nombre" aria-label="Linda Catalina, inicio"><span class="brand-mark" aria-hidden="true">LC</span><span>Linda Catalina<span class="brand-subtitle">Ambiente &amp; datos</span></span></a>
+      <nav aria-label="Navegación principal"><a href="#proyectos">Proyectos</a><a href="#competencias">Competencias</a><a href="#formacion">Formación</a><a href="#contacto">Contacto <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="contenido" class="site-shell">{{ content }}</main>
+  <footer class="site-shell site-footer"><span>Linda Catalina Correa Lozano</span><span>Portafolio académico · Medellín, Colombia</span></footer>
+</body>
+</html>
